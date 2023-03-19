@@ -1,4 +1,4 @@
-# Challenge: Sum two numbers
+# Sum two numbers
 
 num1 = int(input("Insert a number to sum: "))
 num2 = int(input("Insert another number to sum: "))

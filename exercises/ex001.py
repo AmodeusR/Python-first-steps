@@ -1,2 +1,2 @@
-# Challenge: Print a message on the terminal
+# Print a message on the terminal
 print("Hello, world!")
