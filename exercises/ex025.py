@@ -1,10 +1,10 @@
 # Check if a text inputted by the user has the "movie" word
 
 user_input = input("Type a text: ").lower()
+words = user_input.split()
 
 # First solution
 
-# words = user_input.split()
 
 # for word in words:
 #   if word == "movie":
@@ -16,7 +16,7 @@ user_input = input("Type a text: ").lower()
 
 # Second solution
 
-if "movie" in user_input:
+if "movie" in words:
   print("The text has the word \"movie\"")
 else:
   print("The text doesn't have the word \"movie\"")
